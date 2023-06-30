@@ -1,0 +1,54 @@
+1 0 7
+2 3 4
+3 4 1
+4 6 4
+t = 0
+queued pid = 1
+first start pid = 1
+t = 1
+continue pid = 1
+t = 2
+continue pid = 1
+t = 3
+queued pid = 2
+time up pid = 1
+first start pid = 2
+t = 4
+queued pid = 3
+continue pid = 2
+t = 5
+continue pid = 2
+t = 6
+queued pid = 4
+time up pid = 2
+continue pid = 1
+t = 7
+continue pid = 1
+t = 8
+continue pid = 1
+t = 9
+time up pid = 1
+first start pid = 3
+completed pid = 3
+t = 10
+first start pid = 4
+t = 11
+continue pid = 4
+t = 12
+continue pid = 4
+t = 13
+time up pid = 4
+continue pid = 2
+completed pid = 2
+t = 14
+continue pid = 1
+completed pid = 1
+t = 15
+continue pid = 4
+completed pid = 4
+1 0 8
+2 0 7
+3 5 5
+4 4 6
+Average waiting time: 6.50
+Average response time: 2.25
